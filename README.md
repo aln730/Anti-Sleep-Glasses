@@ -1,4 +1,8 @@
 # Anti-Sleep Glasses
 
-- Uses computer vision to detect and track eyes.
-- 
+This project detects closed eyes using OpenCV and triggers an alert via an ESP32. If eyes stay closed for more than 10 seconds, an LED or buzzer connected to GPIO12 flickers. When eyes open, the alert stops.
+
+- Face and eye detection using Haar cascades
+- 10-second eye-closure timer
+- Serial communication to ESP32
+- Flickering LED/buzzer alert
